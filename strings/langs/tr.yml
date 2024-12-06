@@ -195,7 +195,7 @@ lyrics_4: "Aşağıdaki düğmeye tıklayın ve şarkı sözlerini almak için a
 
 #Ping
 ping_1 : "»{0} ᴘɪɴɢ ɪɴɢ..."
-ping_2 : "**» ᴘᴏɴɢ**: `{0}`ᴍs \n\n<b><u>{1} sʏsᴛᴇᴍ sᴛᴀᴛ's :</u></b>\n\n🌋 ᴜᴩᴛɪᴍᴇ : {2}\n🌋 ʀᴀᴍ : {3} \n🌋 ᴄᴩᴜ : {4} \n🌋 ᴅɪsᴋ : {5} \n🌋 ᴩʏ-ᴛɢᴄᴀʟʟs : `{6} ᴍs`"
+ping_2 : "» PONG: {0}MS \n\n<b><u>{1} SYSTEM STAT'S:</u></b>\n\n⚡ UPTIME : {2}\n⚡ ᴍᴇᴍᴏʀʏ : {3}\n⚡ CPU : {4}\n⚡ DISK : {5}\n⚡ PY-TGCALLS : {6} MS\n\n🌹 ʙʏ » ᴛʀᴜsᴛᴇᴅ sᴇʟʟᴇʀ ♡"
 
 # Song
 song_1 : "Müzik veya video yalnızca özel sohbetlerde YouTube'dan indirilebilir. Lütfen özel bir sohbet başlatın."
