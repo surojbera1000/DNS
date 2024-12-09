@@ -1086,7 +1086,7 @@ async def del_back_playlist(client, CallbackQuery, _):
     )
 
 
-__MODULE__ = "P-ʟɪsᴛ"
+__MODULE__ = "๏ ᴘ-ʟɪsᴛ ๏"
 __HELP__ = """
 <b>★ /playlist</b> - Cʜᴇᴄᴋ Yᴏᴜʀ Sᴀᴠᴇᴅ Pʟᴀʏʟɪsᴛ Oɴ Sᴇʀᴠᴇʀs.
 
