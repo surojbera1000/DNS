@@ -82,7 +82,7 @@ async def vc(client, message: Message):
     await message.reply_text(f"ᴀᴄᴛɪᴠᴇ ᴄʜᴀᴛs ɪɴғᴏ: {ac_audio}")
 
 
-__MODULE__ = "Acᴛɪᴠᴇ"
+__MODULE__ = "๏ ᴀᴄᴛɪᴠᴇ ๏"
 __HELP__ = """
 <b>✧ /ac</b> - Cʜᴇᴄᴋ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs ᴏɴ ʙᴏᴛ.
 
