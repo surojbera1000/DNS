@@ -282,7 +282,7 @@ async def auto_clean():
 
 asyncio.create_task(auto_clean())
 
-__MODULE__ = "G-ᴄᴀsᴛ"
+__MODULE__ = "๏ ɢ-ᴄᴀsᴛ ๏"
 __HELP__ = """
 <b>/broadcast [ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ]</b> » ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
 <u>ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ ᴍᴏᴅᴇs:</u>
