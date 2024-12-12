@@ -20,15 +20,15 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", ""))
 
-API_HASH = getenv("")
+API_HASH = getenv("API_HASH")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 
 CLEANMODE_DELETE_MINS = int(
@@ -39,7 +39,7 @@ CLEANMODE_DELETE_MINS = int(
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "15000")
+    getenv("DURATION_LIMIT", "1500")
 )  # Remember to give value in Minutes
 
 
@@ -53,7 +53,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/surojbera1000/Extra-plugins",
+    "https://github.com/MISH0009/Extra-plugins",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -65,17 +65,17 @@ EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "120")
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "90")
 )  # Remember to give value in Minutes
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "6955568347").split())
 )  # Input type must be interger
 
 
@@ -109,10 +109,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/cheapottstorein"
+    "SUPPORT_CHANNEL", "https://t.me/Dns_Official_Channel"
 )  # Example:- https://t.me/TheTeamVivek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Thunder_World_Chat"
+    "SUPPORT_GROUP", "https://t.me/DNS_NETWORK"
 )  # Example:- https://t.me/TheTeamVk
 
 
@@ -152,10 +152,10 @@ VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "999"))
 
 
 # Maximum Limit Allowed for users to save playlists on bot's server
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
+SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "25"))
 
 # MaximuM limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
 
 
 # Telegram audio  and video file size limit
@@ -233,7 +233,7 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://graph.org/file/6acbef6497faa984a45ec-f1283346d6175245fa.jpg",
+    "https://telegra.ph/file/4dd9e2c231eaf7c290404.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
