@@ -39,7 +39,7 @@ CLEANMODE_DELETE_MINS = int(
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "1500")
+    getenv("DURATION_LIMIT", "20000")
 )  # Remember to give value in Minutes
 
 
@@ -65,7 +65,7 @@ EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "90")
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "150")
 )  # Remember to give value in Minutes
 
 
@@ -109,10 +109,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Dns_Official_Channel"
+    "SUPPORT_CHANNEL", "https://t.me/cheapottstorein"
 )  # Example:- https://t.me/TheTeamVivek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/DNS_NETWORK"
+    "SUPPORT_GROUP", "https://t.me/Thunder_World_Chat"
 )  # Example:- https://t.me/TheTeamVk
 
 
