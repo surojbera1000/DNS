@@ -22,7 +22,7 @@ from DnsXMusic.utils.database import (
 )
 from DnsXMusic.utils.decorators.language import LanguageStart
 from DnsXMusic.utils.formatters import get_readable_time
-from DnsXMusic.utils.inline import help_pannel, private_panel, start_panel
+from DnsXMusic.utils.inline import help_pannel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
