@@ -7,7 +7,7 @@
 #
 # All rights reserved.
 #
-from .help_panel import *
+from .help import *
 from .play import *
 from .playlist import *
 from .queue import *
