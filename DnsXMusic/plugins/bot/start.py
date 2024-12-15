@@ -7,12 +7,12 @@ from youtubesearchpython.__future__ import VideosSearch
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 import config
-from ISTKHARX import app
-from ISTKHARX.misc import _boot_
-from ISTKHARX.plugins.sudo.sudoers import sudoers_list
-from ISTKHARX.utils.database import get_served_chats, get_served_users, get_sudoers
-from ISTKHARX.utils import bot_sys_stats
-from ISTKHARX.utils.database import (
+from DnsXMusic import app
+from DnsXMusic.misc import _boot_
+from DnsXMusic.plugins.sudo.sudoers import sudoers_list
+from DnsXMusic.utils.database import get_served_chats, get_served_users, get_sudoers
+from DnsXMusic.utils import bot_sys_stats
+from DnsXMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -20,9 +20,9 @@ from ISTKHARX.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from ISTKHARX.utils.decorators.language import LanguageStart
-from ISTKHARX.utils.formatters import get_readable_time
-from ISTKHARX.utils.inline import help_pannel, private_panel, start_panel
+from DnsXMusic.utils.decorators.language import LanguageStart
+from DnsXMusic.utils.formatters import get_readable_time
+from DnsXMusic.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
